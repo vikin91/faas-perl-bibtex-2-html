@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  faas-perl-bibtex-2-html:
+    lang: Dockerfile
+    handler: ./faas-perl-bibtex-2-html
+    image: faas-perl-bibtex-2-html
